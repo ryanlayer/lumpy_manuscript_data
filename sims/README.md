@@ -8,10 +8,10 @@ experiment:
 
 The fasta files can be found at:
 
-	http://inv_100-1000-1000-10000.sim.fasta.gz
-	http://del_100-1000-1000-10000.sim.fasta.gz
-	http://dup_100-1000-1000-10000.sim.fasta.gz
-	http://trn_100-1000-1000-10000.sim.fasta.gz
+- http://www.cs.virginia.edu/~rl6sf/lumpy/inv_100-1000-1000-10000.sim.fasta.gz
+- http://www.cs.virginia.edu/~rl6sf/lumpy/del_100-1000-1000-10000.sim.fasta.gz
+- http://www.cs.virginia.edu/~rl6sf/lumpy/dup_100-1000-1000-10000.sim.fasta.gz
+- http://www.cs.virginia.edu/~rl6sf/lumpy/trn_100-1000-1000-10000.sim.fasta.gz
 
 The variants simualted for the "Heterogeneous tumor simulation" experiment:
 
