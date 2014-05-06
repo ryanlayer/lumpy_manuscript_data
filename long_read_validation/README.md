@@ -1,4 +1,39 @@
 
+## PacBio/Moleculo-based truth set
+
+This truth set is based on the calls made by either LUMPY, DELLY, GASVPro or
+DELLY that were validated (using the steps below).  All overlapping calls were
+mereged by taking the minimum shared interval among the oberalpping set.
+
+    
+    FILES="lumpy.del.bedpe
+    delly.del.bedpe
+    gasvpro.del.bedpe
+    pindel.del.bedpe"
+
+    rm -f full.hit.val.bedpe
+
+    for FILE in $FILES
+    do
+        cat $FILE \
+        | awk '$(NF-1)>1 || $NF>0' \
+        | cut -f1-10 \
+        >> full.hit.val.bedpe
+    done
+
+    bedpe_sort.py \
+        -g genome.txt \
+        -b full.hit.val.bedpe \
+        > full.hit.val.sort.bedpe
+
+    merge_bedpe.py \
+        -b full.hit.val.sort.bedpe \
+        > full.hit.val.sort.merge.bedpe
+
+The file used for the LUMPY manuscript is include
+
+    full.hit.val.sort.merge.20140505.bedpe
+
 ## PacBio/Moleculo deletion validation
 
 Tools Used
