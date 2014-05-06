@@ -34,7 +34,9 @@ The file used for the LUMPY manuscript is include
 
     full.hit.val.sort.merge.20140505.bedpe
 
-## LUMPY Validated calls for all variant types
+## LUMPY calls for all variant types
+
+LUMPY calls.  All variant types and validated and un-validated.
 
    lumpy.NA12878.mol_pb_val.bedpe 
 
