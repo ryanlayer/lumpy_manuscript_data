@@ -17,6 +17,6 @@ The variants simualted for the "Heterogeneous tumor simulation" experiment:
 
 	b37.non_olap.bedpe
 
-The fata file can be found at:
+The fasta file can be found at:
 
 - http://www.cs.virginia.edu/~rl6sf/lumpy/b37.non_olap.fasta.gz	
