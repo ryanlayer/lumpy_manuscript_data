@@ -34,6 +34,10 @@ The file used for the LUMPY manuscript is include
 
     full.hit.val.sort.merge.20140505.bedpe
 
+## LUMPY Validated calls for all variant types
+
+   lumpy.NA12878.mol_pb_val.bedpe 
+
 ## PacBio/Moleculo deletion validation
 
 Tools Used
