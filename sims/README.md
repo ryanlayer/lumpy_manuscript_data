@@ -13,7 +13,7 @@ The fasta files can be found at:
 - http://www.cs.virginia.edu/~rl6sf/lumpy/dup_100-1000-1000-10000.sim.fasta.gz
 - http://www.cs.virginia.edu/~rl6sf/lumpy/trn_100-1000-1000-10000.sim.fasta.gz
 
-The variants simualted for the "Heterogeneous tumor simulation" experiment:
+The variants simulated for the "Heterogeneous tumor simulation" experiment:
 
 	b37.non_olap.bedpe
 
