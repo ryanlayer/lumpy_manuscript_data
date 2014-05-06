@@ -3,7 +3,7 @@
 
 This truth set is based on the calls made by either LUMPY, DELLY, GASVPro or
 DELLY that were validated (using the steps below).  All overlapping calls were
-mereged by taking the minimum shared interval among the oberalpping set.
+merged by taking the minimum shared interval among the overlapping set.
 
     
     FILES="lumpy.del.bedpe
@@ -68,7 +68,7 @@ Download and Format PacBio Data
 
 Download and Format Moleculo Data
 
-    # a. Download moleculo data
+    # a. Download Moleculo data
     /n/sw/aspera/bin/ascp -i /n/sw/aspera/etc/asperaweb_id_dsa.putty -QTr -l 1000M anonftp@ftp-trace.ncbi.nlm.nih.gov:/1000genomes/ftp/technical/working/20131209_na12878_moleculo/alignment/NA12878.moleculo.bwa-mem.20140110.bam .
     /n/sw/aspera/bin/ascp -i /n/sw/aspera/etc/asperaweb_id_dsa.putty -QTr -l 1000M anonftp@ftp-trace.ncbi.nlm.nih.gov:/1000genomes/ftp/technical/working/20131209_na12878_moleculo/alignment/NA12878.moleculo.bwa-mem.20140110.bam.bai .
 
